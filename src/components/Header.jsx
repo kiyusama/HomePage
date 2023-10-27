@@ -1,27 +1,18 @@
 import React from 'react';
-import './Header.css';
+import { Navbar, Nav } from 'react-bootstrap';
+
 
 const Header = () => {
   return (
-    <header>
-        <div className="logo">
-            <h3>ポートフォリオ</h3>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">ホーム</a>
-                </li>
-                <li>
-                    <a href="#">ブログ</a>
-                </li>
-                <li>
-                    <a href="#">SNS</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-  )
+    <Navbar bg="dark" variant="dark" fixed="top" expand="lg">
+      <Navbar.Brand href="#">ポートフォリオ</Navbar.Brand>
+      <Nav className="ml-auto">
+        <Nav.Link href="#">ホーム</Nav.Link>
+        <Nav.Link href="#">ブログ</Nav.Link>
+        <Nav.Link href="#">SNS</Nav.Link>
+      </Nav>
+    </Navbar>
+  );
 }
 
 export default Header
