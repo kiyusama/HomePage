@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Button} from 'react-bootstrap';
 
 
 const Header = () => {
@@ -10,6 +10,9 @@ const Header = () => {
         <Nav.Link href="#">ホーム</Nav.Link>
         <Nav.Link href="#">ブログ</Nav.Link>
         <Nav.Link href="#">SNS</Nav.Link>
+
+        <Button className="bi bi-alarm"></Button>
+        
       </Nav>
     </Navbar>
   );
