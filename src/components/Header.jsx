@@ -1,21 +1,22 @@
 import React from 'react';
-import { Navbar, Nav} from 'react-bootstrap';
+import { Navbar, Nav, Container} from 'react-bootstrap';
 import top_img from '../assets/top.png';
 
 
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" fixed="top" expand="lg">
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src={top_img}
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{' '}ポートフォリオ
-      </Navbar.Brand>
+    <Navbar className="bg-body-tertiary" expand="lg"> {/*expandを設定しないとハンバーガーにならないので注意*/}
+      <Container>
+        <Navbar.Brand href="#">
+          <img
+            alt=""
+            src={top_img}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{' '}My Page
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -25,6 +26,7 @@ const Header = () => {
             <span className="nav-link bi bi-alarm mr-2"></span>
           </Nav>
         </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 }
