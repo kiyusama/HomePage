@@ -1,12 +1,20 @@
 
 
-
-.backHome{
-    height: 100vh; 
+  .backHome{
+    height: 100dvh; 
     width: 100%;  
     background-image: url('./assets/images/BackImgHome.png');
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-attachment: fixed;
     background-position: center;
-  }
+}
+
+@media (max-width: 768px) {
+    .backHome {
+        background-attachment: scroll;
+    }
+}
+
+
+  

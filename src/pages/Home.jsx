@@ -10,7 +10,7 @@ const Home = () => {
           <Container>
             <Row>
               <Col lg={7} className='mx-auto'>
-                  <h1>Home4</h1>
+                  <h1>Home5</h1>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quod delectus nostrum, hic dolorum iusto inventore ullam aut similique qui perferendis minima! Porro, ad? Natus, omnis? Nemo saepe placeat commodi?</p>
               </Col>
             </Row>
