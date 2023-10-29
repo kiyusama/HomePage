@@ -6,7 +6,7 @@ import topImg from '../assets/images/top.png';
 
 const Header = () => {
   return (
-    <Navbar className="bg-body-tertiary" expand="lg"> {/*expandを設定しないとハンバーガーにならないので注意*/}
+    <Navbar className="bg-body-tertiary" expand="lg" bg="dark" data-bs-theme="dark"> {/*expandを設定しないとハンバーガーにならないので注意*/}
       <Container>
         <Navbar.Brand href="#">
           <img
