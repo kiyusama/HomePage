@@ -1,0 +1,8 @@
+.Back-Home{
+    height: 70vh; 
+    width: 100%;  
+    background-image: url('./assets/images/BackImgHome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }

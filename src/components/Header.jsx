@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container} from 'react-bootstrap';
-import top_img from '../assets/top.png';
+import topImg from '../assets/images/top.png';
 
 
 
@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar.Brand href="#">
           <img
             alt=""
-            src={top_img}
+            src={topImg}
             width="30"
             height="30"
             className="d-inline-block align-top"
