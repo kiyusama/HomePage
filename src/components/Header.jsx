@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container} from 'react-bootstrap';
 import topImg from '../assets/images/top.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -20,8 +21,10 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">About</Nav.Link>
+            <Link to="/" className="nav-link">Home</Link>
+
+
+            <Link to="/about" className="nav-link">About</Link>
             <Nav.Link href="#">SNS</Nav.Link>
             <span className="nav-link bi bi-alarm mr-2"></span>
           </Nav>

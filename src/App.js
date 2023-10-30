@@ -3,19 +3,25 @@ import './App.css';
 import './Style.css';
 import Header from './components/Header';
 import Home from './pages/Home';
+import About from './pages/About';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 
 function App() {
   return (
     <div className="App">
-     
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Header />  
+        <Routes>
+          
 
-     <Header />
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/about"} element={<About />} />
 
-     <Home />
-     
-
+          
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
