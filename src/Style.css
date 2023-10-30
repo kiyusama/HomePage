@@ -1,11 +1,11 @@
-.backHome {
+.back {
     height: 100vh;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.backHome .bg-img {
+.back .bg-imgHome {
     position: absolute;
     top: 0;
     left: 0;
@@ -15,7 +15,7 @@
     z-index: -1;
 }
 
-.backHome .bg-img::before {
+.back .bg-imgHome::before {
     content: '';
     position: fixed;
     top: 0;
