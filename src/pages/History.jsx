@@ -9,14 +9,21 @@ const History = () => {
     useEffect(() => {
       ScrollReveal().reveal('.imgRight', {
         duration: 1600,
-        distance: '100%',
+        distance: '50%',
         origin: 'right',
+        reset: true
+      });
+
+      ScrollReveal().reveal('.imgLeft', {
+        duration: 1600,
+        distance: '50%',
+        origin: 'left',
         reset: true
       });
     }, []);
 
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Container className='vh-100 d-flex align-items-center'>
             <Row>
             <Col lg={7} className='mx-auto'>
@@ -36,11 +43,29 @@ const History = () => {
             </Row>
         </Container>
 
-        <Container className="d-flex justify-content-center align-items-center">
+        <Container className="d-flex justify-content-center">
             <Row>
-                <Col>
-                    <img src={img1} className='imgRight position-relative start-100' height="300" width="300" alt="サンプル画像" />
-                    <h2 className='imgRight'>
+                <Col md={6} className="d-flex align-items-center">
+                    <h2 className='imgRight mx-auto'>
+                        asddgfgf
+                    </h2>
+                </Col>
+                <Col md={6}>
+                    <img src={img1} className='imgRight img-fluid' alt="" />
+                </Col>
+            </Row>
+        </Container>
+
+
+
+
+        <Container className="d-flex justify-content-center">
+            <Row>
+                <Col md={6}>
+                    <img src={img1} className='imgLeft img-fluid' alt="" />
+                </Col>
+                <Col md={6} className="d-flex align-items-center">
+                    <h2 className='imgLeft mx-auto'>
                         asddgfgf
                     </h2>
                 </Col>

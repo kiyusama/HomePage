@@ -26,6 +26,7 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
+      
       <Container className='vh-100 d-flex align-items-center'>
         <Row>
           <Col lg={7} className='mx-auto'>
