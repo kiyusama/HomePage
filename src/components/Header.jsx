@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <Navbar className="bg-body-tertiary" expand="lg" bg="dark" data-bs-theme="dark" fixed="top" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
       <Container>
-        <Navbar.Brand href="#">
+        <Navbar.Brand as={Link} to="/">
           <img
             alt=""
             src={topImg}
@@ -24,7 +24,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" className="nav-link" onClick={() => setExpanded(false)}>Home</Link>
+            
             <Link to="/about" className="nav-link" onClick={() => setExpanded(false)}>About</Link>
             <Link to="/history" className="nav-link" onClick={() => setExpanded(false)}>History</Link>
             

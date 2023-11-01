@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import History from './pages/History';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />  
+          <ScrollToTop />
           <Routes>
             
 
