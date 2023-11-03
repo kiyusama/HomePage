@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/HomePage/static/css/main.5fb35c2a.css",
-    "main.js": "/HomePage/static/js/main.aebded2b.js",
+    "main.css": "/HomePage/static/css/main.5f971d8d.css",
+    "main.js": "/HomePage/static/js/main.618a3d6d.js",
+    "static/media/Desert 2.jpg": "/HomePage/static/media/Desert 2.d21e04ef5956177d53b6.jpg",
     "static/media/BackImgHome.png": "/HomePage/static/media/BackImgHome.f7e82ea7e14968b13ee3.png",
+    "static/media/Isles.jpg": "/HomePage/static/media/Isles.974acdbed9bccdfd09ab.jpg",
     "static/media/bootstrap-icons.woff?": "/HomePage/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/bootstrap-icons.woff2?": "/HomePage/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
     "static/media/idle2p_2.png": "/HomePage/static/media/idle2p_2.dab9f8596e6eb8a2eaa1.png",
     "static/media/top.png": "/HomePage/static/media/top.762a189742eba550605d.png",
     "index.html": "/HomePage/index.html",
-    "main.5fb35c2a.css.map": "/HomePage/static/css/main.5fb35c2a.css.map",
-    "main.aebded2b.js.map": "/HomePage/static/js/main.aebded2b.js.map"
+    "main.5f971d8d.css.map": "/HomePage/static/css/main.5f971d8d.css.map",
+    "main.618a3d6d.js.map": "/HomePage/static/js/main.618a3d6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fb35c2a.css",
-    "static/js/main.aebded2b.js"
+    "static/css/main.5f971d8d.css",
+    "static/js/main.618a3d6d.js"
   ]
 }
