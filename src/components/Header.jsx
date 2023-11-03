@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <Navbar className="bg-body-tertiary" expand="lg" bg="dark" data-bs-theme="dark" fixed="top" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
       <Container>
-        <Navbar.Brand as={Link} to="/" onClick={scrollTop}>
+        <Navbar.Brand as={Link} to="/" onClick={() => {setExpanded(false); scrollTop();}}>
           <img
             alt=""
             src={topImg}
