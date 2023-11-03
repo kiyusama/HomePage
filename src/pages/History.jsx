@@ -67,7 +67,8 @@ const History = () => {
             </div>
 
 
-
+            <div className='back'>
+            <div className='bg-imgHis'></div>
             <Container className="d-flex justify-content-center">
                 <Row>
                     <Col md={6}>
@@ -80,6 +81,7 @@ const History = () => {
                     </Col>
                 </Row>
             </Container>
+            </div>
         
     </div>
   )
